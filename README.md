@@ -52,7 +52,7 @@ npx vitest run
 ```
 
 Crirar um gitignore com o github cli
-````bash
+```bash
 gh repo create --gitignore Node
 ```
 
