@@ -1,10 +1,13 @@
-### Gescol
+# Gescol
 Projeto para gerenciamento escolar
 
-## Negócio
-# Forúm
+# Casos de Uso
+## Forúm
 - Muita dificuldade em saber as dúvidas dos alunos
 - Eu tenho que responder os alunos e eu me perco em quais dúvidas já forma respondidas
+
+# Regras de negócio
+Ainda não foram definidas
 
 
 # Tecnologias utlizadas
@@ -70,7 +73,7 @@ Depois colocar a configração abaixo no __paths__:
 ```
 
 #### Arquivos de teste
-Configurar as importações automáticas de forma global do __vitest__ criando o ```vite.config.ts``` e colocando a configuração abaixo do [código 1](#codigo-1). mas para não dá erro no typescript deve fazer uma alteração no ```tsconfig.json```, deve descomentar o ```types:[]``` e colocar dentro dos colchetes o __vitest/globals__, ficando igual ao [código 2](#codigo-2)
+Configurar as importações automáticas de forma global do __vitest__ criando o ```vite.config.ts``` e colocando a configuração abaixo do [código 1](####codigo-1). mas para não dá erro no typescript deve fazer uma alteração no ```tsconfig.json```, deve descomentar o ```types:[]``` e colocar dentro dos colchetes o __vitest/globals__, ficando igual ao [código 2](####codigo-2)
 
 #### Código 1
 ```javascript
